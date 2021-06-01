@@ -260,13 +260,17 @@ public class IfEx {
 //		}
 //		System.out.println(sum);
 		
-		int sum = 0;
 		while(num != 0) {
 			revers += num % 10;
 			num /= 10;
 			revers *= 10;
 		}
 		revers /= 10;
+		
+//		while(num!=0){
+//			revers = revers * 10 + num % 10;
+//            num /= 10;
+//        }
 		System.out.println(revers);
 	}
 }
