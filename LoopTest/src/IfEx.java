@@ -237,12 +237,12 @@ public class IfEx {
 //		} while(!input.equals("q")); //논리부정연산자
 //		System.out.println("프로그램 종료");
 		
-		Scanner sc = new Scanner(System.in);
-		System.out.println("숫자형태로 문자를 입력");
-		String input = sc.nextLine();
-		int num = Integer.parseInt(input); //문자열을 숫자로
-		int revers = 0;
-		
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("숫자형태로 문자를 입력");
+//		String input = sc.nextLine();
+//		int num = Integer.parseInt(input); //문자열을 숫자로
+//		int revers = 0;
+//		
 //		int result = num % 10;
 //	    int i = 10;
 //        while((num / i) >= 1) {
@@ -260,17 +260,57 @@ public class IfEx {
 //		}
 //		System.out.println(sum);
 		
-		while(num != 0) {
-			revers += num % 10;
-			num /= 10;
-			revers *= 10;
-		}
-		revers /= 10;
-		
+//		while(num != 0) {
+//			revers += num % 10;
+//			num /= 10;
+//			revers *= 10;
+//		}
+//		revers /= 10;
+
 //		while(num!=0){
 //			revers = revers * 10 + num % 10;
 //            num /= 10;
 //        }
-		System.out.println(revers);
+//		System.out.println(revers);
+		
+//		Scanner sc = new Scanner(System.in);
+//		while(true) {
+//			System.out.println("정수입력");
+//			int num = sc.nextInt();
+//			
+//			if(num == 1) {
+//				System.out.println("1번입니다.");
+//			} else if(num == 2) {
+//				System.out.println("2번입니다.");
+//			} else {
+//				System.out.println("잘못입력");
+//				break;
+//			}
+			
+		    boolean run = true;
+		    
+			Scanner scan = new Scanner(System.in);
+			int balance = 0;
+			int select = 0;
+			while(run) {
+				System.out.println("-------------------");
+				System.out.println("1.예금 | 2.출금 | 3.잔교 | 4.종료");
+				System.out.println("-------------------");
+				System.out.println("선택> ");
+				select = scan.nextInt();
+
+				if(select == 1) {
+					System.out.println("예금액>");
+					balance += scan.nextInt();
+				} else if(select == 2) {
+					System.out.println("출금액>");
+					balance -= scan.nextInt();
+				} else if(select == 3) {
+					System.out.println("잔고>" + balance );
+				} else {
+					run = false;
+				}
+		     }
+			 System.out.println("프로그램 종료"); //구성상 와일문 밖에 빼야한다.	
 	}
 }
