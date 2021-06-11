@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_1_2FgMp2Eeunc_oc4k4f7Q">
+  <modelElement href="starcraft.uml#_18sD0Mp2Eeunc_oc4k4f7Q"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IryAMMp3Eeunc_oc4k4f7Q" sourceAnchor="123.0,0.0" targetAnchor="14.0,55.0" superClass="_IqWc0Mp3Eeunc_oc4k4f7Q" subClass="_Ir24sMp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_6FYXgMp2Eeunc_oc4k4f7Q"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IskqYMp3Eeunc_oc4k4f7Q" sourceAnchor="91.0,74.0" targetAnchor="37.0,0.0" dashed="true" superClass="_IsnGoMp3Eeunc_oc4k4f7Q" subClass="_Ir24sMp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_6FXJYMp2Eeunc_oc4k4f7Q"/>
+    <bendpoints xmi:id="_hKJMgMp3Eeunc_oc4k4f7Q" sourceY="17" targetX="-56" targetY="-13"/>
+    <bendpoints xmi:id="_hKJMgcp3Eeunc_oc4k4f7Q" sourceX="56" sourceY="18" targetY="-12"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IsqxAMp3Eeunc_oc4k4f7Q" sourceAnchor="158.0,27.0" targetAnchor="30.0,0.0" dashed="true" superClass="_Isr_IMp3Eeunc_oc4k4f7Q" subClass="_IsWA4Mp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_6FZloMp2Eeunc_oc4k4f7Q"/>
+    <bendpoints xmi:id="_hKLBssp3Eeunc_oc4k4f7Q" sourceX="18" targetY="-58"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_IsvCcMp3Eeunc_oc4k4f7Q" sourceAnchor="86.0,74.0" targetAnchor="37.0,0.0" dashed="true" superClass="_IsnGoMp3Eeunc_oc4k4f7Q" subClass="_Isz68Mp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_6FcB4Mp2Eeunc_oc4k4f7Q"/>
+    <bendpoints xmi:id="_hKJzkMp3Eeunc_oc4k4f7Q" sourceY="21" targetX="372" targetY="-13"/>
+    <bendpoints xmi:id="_hKJzkcp3Eeunc_oc4k4f7Q" sourceX="-372" sourceY="22" targetY="-12"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ItAIMMp3Eeunc_oc4k4f7Q" sourceAnchor="91.0,73.0" targetAnchor="37.0,0.0" dashed="true" superClass="_IsnGoMp3Eeunc_oc4k4f7Q" subClass="_ItFnwMp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_6FdQAcp2Eeunc_oc4k4f7Q"/>
+    <bendpoints xmi:id="_hKKaoMp3Eeunc_oc4k4f7Q" sourceY="12" targetX="162" targetY="-12"/>
+    <bendpoints xmi:id="_hKKaocp3Eeunc_oc4k4f7Q" sourceX="-162" sourceY="12" targetY="-12"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ItM8gMp3Eeunc_oc4k4f7Q" sourceAnchor="114.0,0.0" targetAnchor="100.0,99.0" superClass="_ItScEMp3Eeunc_oc4k4f7Q" subClass="_IqWc0Mp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_6FRCwMp2Eeunc_oc4k4f7Q"/>
+    <bendpoints xmi:id="_hKLBtcp3Eeunc_oc4k4f7Q" sourceY="-25" targetX="-218" targetY="23"/>
+    <bendpoints xmi:id="_hKLowMp3Eeunc_oc4k4f7Q" sourceX="218" sourceY="-24" targetY="24"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_sHXvEMp3Eeunc_oc4k4f7Q" dashed="true" superClass="_Isr_IMp3Eeunc_oc4k4f7Q" subClass="_IscukMp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_sHNXAMp3Eeunc_oc4k4f7Q"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Ir24sMp3Eeunc_oc4k4f7Q" name="Dropship" generalizations="_IryAMMp3Eeunc_oc4k4f7Q _IskqYMp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_6BpuEMp2Eeunc_oc4k4f7Q"/>
+    <visualProperties xmi:id="_Ir24scp3Eeunc_oc4k4f7Q" position="287.0,570.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Ir24ssp3Eeunc_oc4k4f7Q" label="+"/>
+    <operations xmi:id="_Ir24s8p3Eeunc_oc4k4f7Q" name="Dropship">
+      <modelElement href="starcraft.uml#_6Bq8MMp2Eeunc_oc4k4f7Q"/>
+      <keywords xmi:id="_Ir24tMp3Eeunc_oc4k4f7Q" keyword="create"/>
+      <visibility xmi:id="_Ir24tcp3Eeunc_oc4k4f7Q" label="+"/>
+      <cardinality xmi:id="_Ir24tsp3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ir24t8p3Eeunc_oc4k4f7Q">
+        <modelElement href="starcraft.uml#_6BrjQsp2Eeunc_oc4k4f7Q"/>
+        <type xmi:id="_Ir24uMp3Eeunc_oc4k4f7Q" name="Dropship">
+          <modelElement href="starcraft.uml#_6BpuEMp2Eeunc_oc4k4f7Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Ir24ucp3Eeunc_oc4k4f7Q" name="toString">
+      <modelElement href="starcraft.uml#_6BrjQ8p2Eeunc_oc4k4f7Q"/>
+      <stereotypes xmi:id="_Ir24usp3Eeunc_oc4k4f7Q" name="LegacyStyledElement">
+        <modelElement href="starcraft.uml#_6Bt_gMp2Eeunc_oc4k4f7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Ir24u8p3Eeunc_oc4k4f7Q" name="Annotations">
+        <modelElement href="starcraft.uml#_6BwbwMp2Eeunc_oc4k4f7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_Ir24vMp3Eeunc_oc4k4f7Q" label="+"/>
+      <cardinality xmi:id="_Ir24vcp3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Ir24vsp3Eeunc_oc4k4f7Q">
+        <modelElement href="starcraft.uml#_6BsKUMp2Eeunc_oc4k4f7Q"/>
+        <type xmi:id="_Ir24v8p3Eeunc_oc4k4f7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Isz68Mp3Eeunc_oc4k4f7Q" name="SCV" generalizations="_IsvCcMp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_6CeNcMp2Eeunc_oc4k4f7Q"/>
+    <visualProperties xmi:id="_Isz68cp3Eeunc_oc4k4f7Q" position="720.0,566.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Isz68sp3Eeunc_oc4k4f7Q" label="+"/>
+    <operations xmi:id="_Isz688p3Eeunc_oc4k4f7Q" name="SCV">
+      <modelElement href="starcraft.uml#_6CjtAMp2Eeunc_oc4k4f7Q"/>
+      <keywords xmi:id="_Isz69Mp3Eeunc_oc4k4f7Q" keyword="create"/>
+      <visibility xmi:id="_Isz69cp3Eeunc_oc4k4f7Q" label="+"/>
+      <cardinality xmi:id="_Isz69sp3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Isz698p3Eeunc_oc4k4f7Q">
+        <modelElement href="starcraft.uml#_6CkUEMp2Eeunc_oc4k4f7Q"/>
+        <type xmi:id="_Isz6-Mp3Eeunc_oc4k4f7Q" name="SCV">
+          <modelElement href="starcraft.uml#_6CeNcMp2Eeunc_oc4k4f7Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Isz6-cp3Eeunc_oc4k4f7Q" name="repair">
+      <modelElement href="starcraft.uml#_6FcB4cp2Eeunc_oc4k4f7Q"/>
+      <visibility xmi:id="_Isz6-sp3Eeunc_oc4k4f7Q" label="~"/>
+      <cardinality xmi:id="_Isz6-8p3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Isz6_Mp3Eeunc_oc4k4f7Q" name="r">
+        <modelElement href="starcraft.uml#_6Fco8Mp2Eeunc_oc4k4f7Q"/>
+        <cardinality xmi:id="_Isz6_cp3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_Isz6_sp3Eeunc_oc4k4f7Q" name="Repairable">
+          <modelElement href="starcraft.uml#_6CWRoMp2Eeunc_oc4k4f7Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ItFnwMp3Eeunc_oc4k4f7Q" name="Tank" generalizations="_ItAIMMp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_6CpzoMp2Eeunc_oc4k4f7Q"/>
+    <visualProperties xmi:id="_ItFnwcp3Eeunc_oc4k4f7Q" position="505.0,577.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ItFnwsp3Eeunc_oc4k4f7Q" label="+"/>
+    <operations xmi:id="_ItFnw8p3Eeunc_oc4k4f7Q" name="Tank">
+      <modelElement href="starcraft.uml#_6CrBwMp2Eeunc_oc4k4f7Q"/>
+      <keywords xmi:id="_ItFnxMp3Eeunc_oc4k4f7Q" keyword="create"/>
+      <visibility xmi:id="_ItFnxcp3Eeunc_oc4k4f7Q" label="+"/>
+      <cardinality xmi:id="_ItFnxsp3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ItFnx8p3Eeunc_oc4k4f7Q">
+        <modelElement href="starcraft.uml#_6Cro0cp2Eeunc_oc4k4f7Q"/>
+        <type xmi:id="_ItFnyMp3Eeunc_oc4k4f7Q" name="Tank">
+          <modelElement href="starcraft.uml#_6CpzoMp2Eeunc_oc4k4f7Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ItFnycp3Eeunc_oc4k4f7Q" name="toString">
+      <modelElement href="starcraft.uml#_6CsP4Mp2Eeunc_oc4k4f7Q"/>
+      <stereotypes xmi:id="_ItFnysp3Eeunc_oc4k4f7Q" name="LegacyStyledElement">
+        <modelElement href="starcraft.uml#_6CteAMp2Eeunc_oc4k4f7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ItFny8p3Eeunc_oc4k4f7Q" name="Annotations">
+        <modelElement href="starcraft.uml#_6CuFEMp2Eeunc_oc4k4f7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_ItFnzMp3Eeunc_oc4k4f7Q" label="+"/>
+      <cardinality xmi:id="_ItFnzcp3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ItFnzsp3Eeunc_oc4k4f7Q">
+        <modelElement href="starcraft.uml#_6Cs28Mp2Eeunc_oc4k4f7Q"/>
+        <type xmi:id="_ItFnz8p3Eeunc_oc4k4f7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IsWA4Mp3Eeunc_oc4k4f7Q" name="Marine" generalizations="_IsqxAMp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_6B1UQMp2Eeunc_oc4k4f7Q"/>
+    <visualProperties xmi:id="_IsWA4cp3Eeunc_oc4k4f7Q" position="928.0,588.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IsWA4sp3Eeunc_oc4k4f7Q" label="+"/>
+    <operations xmi:id="_IsWA48p3Eeunc_oc4k4f7Q" name="Marine">
+      <modelElement href="starcraft.uml#_6B2iYMp2Eeunc_oc4k4f7Q"/>
+      <keywords xmi:id="_IsWA5Mp3Eeunc_oc4k4f7Q" keyword="create"/>
+      <visibility xmi:id="_IsWA5cp3Eeunc_oc4k4f7Q" label="+"/>
+      <cardinality xmi:id="_IsWA5sp3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IsWA58p3Eeunc_oc4k4f7Q">
+        <modelElement href="starcraft.uml#_6B3Jcsp2Eeunc_oc4k4f7Q"/>
+        <type xmi:id="_IsWA6Mp3Eeunc_oc4k4f7Q" name="Marine">
+          <modelElement href="starcraft.uml#_6B1UQMp2Eeunc_oc4k4f7Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_raBEYMp4Eeunc_oc4k4f7Q" name="toString">
+      <modelElement href="starcraft.uml#_rZzB8Mp4Eeunc_oc4k4f7Q"/>
+      <stereotypes xmi:id="_raBEYcp4Eeunc_oc4k4f7Q" name="Annotations">
+        <modelElement href="starcraft.uml#_rZ0QEMp4Eeunc_oc4k4f7Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_raBEYsp4Eeunc_oc4k4f7Q" name="LegacyStyledElement">
+        <modelElement href="starcraft.uml#_rZ1eMMp4Eeunc_oc4k4f7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_raBEY8p4Eeunc_oc4k4f7Q" label="+"/>
+      <cardinality xmi:id="_raBEZMp4Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_raBEZcp4Eeunc_oc4k4f7Q">
+        <modelElement href="starcraft.uml#_rZ6WsMp4Eeunc_oc4k4f7Q"/>
+        <type xmi:id="_raBEZsp4Eeunc_oc4k4f7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IqWc0Mp3Eeunc_oc4k4f7Q" name="AirUnit" generalizations="_ItM8gMp3Eeunc_oc4k4f7Q" subclassedBy="_IryAMMp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_6BVlAMp2Eeunc_oc4k4f7Q"/>
+    <visualProperties xmi:id="_IqWc0cp3Eeunc_oc4k4f7Q" position="396.0,425.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IqWc0sp3Eeunc_oc4k4f7Q" label="+"/>
+    <operations xmi:id="_IqWc08p3Eeunc_oc4k4f7Q" name="AirUnit">
+      <modelElement href="starcraft.uml#_6BnR0Mp2Eeunc_oc4k4f7Q"/>
+      <keywords xmi:id="_IqWc1Mp3Eeunc_oc4k4f7Q" keyword="create"/>
+      <visibility xmi:id="_IqWc1cp3Eeunc_oc4k4f7Q" label="+"/>
+      <cardinality xmi:id="_IqWc1sp3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IqWc18p3Eeunc_oc4k4f7Q">
+        <modelElement href="starcraft.uml#_6BpHAMp2Eeunc_oc4k4f7Q"/>
+        <type xmi:id="_IqWc2Mp3Eeunc_oc4k4f7Q" name="AirUnit">
+          <modelElement href="starcraft.uml#_6BVlAMp2Eeunc_oc4k4f7Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IqWc2cp3Eeunc_oc4k4f7Q" name="mAX_HP">
+        <modelElement href="starcraft.uml#_6BnR0cp2Eeunc_oc4k4f7Q"/>
+        <cardinality xmi:id="_IqWc2sp3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_IqWc28p3Eeunc_oc4k4f7Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ItScEMp3Eeunc_oc4k4f7Q" name="Unit" subclassedBy="_ItM8gMp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_6Cv6QMp2Eeunc_oc4k4f7Q"/>
+    <visualProperties xmi:id="_ItTDIMp3Eeunc_oc4k4f7Q" position="628.0,277.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ItTDIcp3Eeunc_oc4k4f7Q" label="+"/>
+    <attributes xmi:id="_ItTDIsp3Eeunc_oc4k4f7Q" name="hitpoint">
+      <modelElement href="starcraft.uml#_6FfsQMp2Eeunc_oc4k4f7Q"/>
+      <stereotypes xmi:id="_ItTDI8p3Eeunc_oc4k4f7Q" name="LegacyStyledElement">
+        <modelElement href="starcraft.uml#_6Fg6YMp2Eeunc_oc4k4f7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_ItTDJMp3Eeunc_oc4k4f7Q" label="~"/>
+      <cardinality xmi:id="_ItTDJcp3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_ItTDJsp3Eeunc_oc4k4f7Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ItTDJ8p3Eeunc_oc4k4f7Q" name="MAX_HP">
+      <modelElement href="starcraft.uml#_6FhhcMp2Eeunc_oc4k4f7Q"/>
+      <stereotypes xmi:id="_ItTDKMp3Eeunc_oc4k4f7Q" name="LegacyStyledElement">
+        <modelElement href="starcraft.uml#_6FiIgMp2Eeunc_oc4k4f7Q"/>
+      </stereotypes>
+      <visibility xmi:id="_ItTDKcp3Eeunc_oc4k4f7Q" label="~"/>
+      <cardinality xmi:id="_ItTDKsp3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+      <type xmi:id="_ItTDK8p3Eeunc_oc4k4f7Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ItTDLMp3Eeunc_oc4k4f7Q" name="Unit">
+      <modelElement href="starcraft.uml#_6CxvcMp2Eeunc_oc4k4f7Q"/>
+      <keywords xmi:id="_ItTDLcp3Eeunc_oc4k4f7Q" keyword="create"/>
+      <visibility xmi:id="_ItTDLsp3Eeunc_oc4k4f7Q" label="+"/>
+      <cardinality xmi:id="_ItTDL8p3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ItTDMMp3Eeunc_oc4k4f7Q">
+        <modelElement href="starcraft.uml#_6CyWgcp2Eeunc_oc4k4f7Q"/>
+        <type xmi:id="_ItTDMcp3Eeunc_oc4k4f7Q" name="Unit">
+          <modelElement href="starcraft.uml#_6Cv6QMp2Eeunc_oc4k4f7Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ItTDMsp3Eeunc_oc4k4f7Q" name="mAX_HP">
+        <modelElement href="starcraft.uml#_6Cxvccp2Eeunc_oc4k4f7Q"/>
+        <cardinality xmi:id="_ItTDM8p3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_ItTDNMp3Eeunc_oc4k4f7Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Is72wMp3Eeunc_oc4k4f7Q" name="StarcraftTest">
+    <modelElement href="starcraft.uml#_6CmwUMp2Eeunc_oc4k4f7Q"/>
+    <visualProperties xmi:id="_Is72wcp3Eeunc_oc4k4f7Q" position="931.0,291.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Is72wsp3Eeunc_oc4k4f7Q" label="+"/>
+    <operations xmi:id="_Is72w8p3Eeunc_oc4k4f7Q" name="main" staticOperation="true">
+      <modelElement href="starcraft.uml#_6Cn-cMp2Eeunc_oc4k4f7Q"/>
+      <visibility xmi:id="_Is72xMp3Eeunc_oc4k4f7Q" label="+"/>
+      <cardinality xmi:id="_Is72xcp3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Is72xsp3Eeunc_oc4k4f7Q" name="args">
+        <modelElement href="starcraft.uml#_6Cn-ccp2Eeunc_oc4k4f7Q"/>
+        <cardinality xmi:id="_Is72x8p3Eeunc_oc4k4f7Q" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_Is72yMp3Eeunc_oc4k4f7Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_IsnGoMp3Eeunc_oc4k4f7Q" name="Repairable" subclassedBy="_IskqYMp3Eeunc_oc4k4f7Q _IsvCcMp3Eeunc_oc4k4f7Q _ItAIMMp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_6CWRoMp2Eeunc_oc4k4f7Q"/>
+    <visualProperties xmi:id="_IsnGocp3Eeunc_oc4k4f7Q" position="397.0,674.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IsnGosp3Eeunc_oc4k4f7Q" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Isr_IMp3Eeunc_oc4k4f7Q" name="Repairable2" subclassedBy="_IsqxAMp3Eeunc_oc4k4f7Q _sHXvEMp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_6CXfwMp2Eeunc_oc4k4f7Q"/>
+    <visualProperties xmi:id="_Isr_Icp3Eeunc_oc4k4f7Q" position="1074.0,673.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Isr_Isp3Eeunc_oc4k4f7Q" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IscukMp3Eeunc_oc4k4f7Q" name="Medic" generalizations="_sHXvEMp3Eeunc_oc4k4f7Q">
+    <modelElement href="starcraft.uml#_6CMgoMp2Eeunc_oc4k4f7Q"/>
+    <visualProperties xmi:id="_Iscukcp3Eeunc_oc4k4f7Q" position="1119.0,570.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Iscuksp3Eeunc_oc4k4f7Q" label="+"/>
+    <operations xmi:id="_Iscuk8p3Eeunc_oc4k4f7Q" name="Medic">
+      <modelElement href="starcraft.uml#_6CNuwMp2Eeunc_oc4k4f7Q"/>
+      <keywords xmi:id="_IsculMp3Eeunc_oc4k4f7Q" keyword="create"/>
+      <visibility xmi:id="_Isculcp3Eeunc_oc4k4f7Q" label="+"/>
+      <cardinality xmi:id="_Isculsp3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Iscul8p3Eeunc_oc4k4f7Q">
+        <modelElement href="starcraft.uml#_6COV0Mp2Eeunc_oc4k4f7Q"/>
+        <type xmi:id="_IscumMp3Eeunc_oc4k4f7Q" name="Medic">
+          <modelElement href="starcraft.uml#_6CMgoMp2Eeunc_oc4k4f7Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Iscumcp3Eeunc_oc4k4f7Q" name="repair">
+      <modelElement href="starcraft.uml#_6FazwMp2Eeunc_oc4k4f7Q"/>
+      <visibility xmi:id="_Iscumsp3Eeunc_oc4k4f7Q" label="~"/>
+      <cardinality xmi:id="_Iscum8p3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IscunMp3Eeunc_oc4k4f7Q" name="r">
+        <modelElement href="starcraft.uml#_6Fazwcp2Eeunc_oc4k4f7Q"/>
+        <cardinality xmi:id="_Iscuncp3Eeunc_oc4k4f7Q" label="1" max="1" min="1"/>
+        <type xmi:id="_Iscunsp3Eeunc_oc4k4f7Q" name="Repairable2">
+          <modelElement href="starcraft.uml#_6CXfwMp2Eeunc_oc4k4f7Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

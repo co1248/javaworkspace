@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_18sD0Mp2Eeunc_oc4k4f7Q" name="starcraft">
+    <eAnnotations xmi:id="_6Bf9EMp2Eeunc_oc4k4f7Q" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_6Bf9Ecp2Eeunc_oc4k4f7Q" source="codegen">
+        <details xmi:id="_6BgkIMp2Eeunc_oc4k4f7Q" key="codegenDirectory" value="/PloyTest/src"/>
+        <details xmi:id="_6SuP8Mp2Eeunc_oc4k4f7Q" key="AssociatedSourceCode" value="/PloyTest/src/com/starcraft/AirUnit.java;2058114862/1;/PloyTest/src/com/starcraft/Dropship.java;3218995728/1;/PloyTest/src/com/starcraft/Marine.java;2022296924/1;/PloyTest/src/com/starcraft/Medic.java;3240094268/1;/PloyTest/src/com/starcraft/Repairable.java;2102106686/1;/PloyTest/src/com/starcraft/Repairable2.java;3756627679/1;/PloyTest/src/com/starcraft/SCV.java;3798914017/1;/PloyTest/src/com/starcraft/StarcraftTest.java;114270907/1;/PloyTest/src/com/starcraft/Tank.java;3942775614/1;/PloyTest/src/com/starcraft/Unit.java;1870559193/1;/PloyTest/src/com/starcraft/GroundUnit.java;3585702155/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_6BiZUMp2Eeunc_oc4k4f7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_6BiZUcp2Eeunc_oc4k4f7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_6BiZUsp2Eeunc_oc4k4f7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_6BiZU8p2Eeunc_oc4k4f7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_6BjAYMp2Eeunc_oc4k4f7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_6BjAYcp2Eeunc_oc4k4f7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_6BjAYsp2Eeunc_oc4k4f7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_6BjAY8p2Eeunc_oc4k4f7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_6BkOgMp2Eeunc_oc4k4f7Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6Aq2oMp2Eeunc_oc4k4f7Q" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_6A0AkMp2Eeunc_oc4k4f7Q" name="starcraft">
+        <packagedElement xmi:type="uml:Class" xmi:id="_6BVlAMp2Eeunc_oc4k4f7Q" name="AirUnit">
+          <generalization xmi:id="_6FRCwMp2Eeunc_oc4k4f7Q" general="_6Cv6QMp2Eeunc_oc4k4f7Q"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6FrScMp2Eeunc_oc4k4f7Q" name="AirUnit" specification="_6BnR0Mp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6FrSccp2Eeunc_oc4k4f7Q" name="mAX_HP">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_6FrScsp2Eeunc_oc4k4f7Q" type="_6BVlAMp2Eeunc_oc4k4f7Q" direction="return"/>
+            <language>java</language>
+            <body>super(mAX_HP);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_6BnR0Mp2Eeunc_oc4k4f7Q" name="AirUnit" method="_6FrScMp2Eeunc_oc4k4f7Q">
+            <eAnnotations xmi:id="_6Bof8Mp2Eeunc_oc4k4f7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_6Bof8cp2Eeunc_oc4k4f7Q" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_6BnR0cp2Eeunc_oc4k4f7Q" name="mAX_HP">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_6BpHAMp2Eeunc_oc4k4f7Q" type="_6BVlAMp2Eeunc_oc4k4f7Q" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6BpuEMp2Eeunc_oc4k4f7Q" name="Dropship">
+          <generalization xmi:id="_6FYXgMp2Eeunc_oc4k4f7Q" general="_6BVlAMp2Eeunc_oc4k4f7Q"/>
+          <interfaceRealization xmi:id="_6FXJYMp2Eeunc_oc4k4f7Q" client="_6BpuEMp2Eeunc_oc4k4f7Q" supplier="_6CWRoMp2Eeunc_oc4k4f7Q" contract="_6CWRoMp2Eeunc_oc4k4f7Q"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6Fu80Mp2Eeunc_oc4k4f7Q" name="Dropship" specification="_6Bq8MMp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6Fu80cp2Eeunc_oc4k4f7Q" type="_6BpuEMp2Eeunc_oc4k4f7Q" direction="return"/>
+            <language>java</language>
+            <body>super(125);&#xD;
+		hitpoint = MAX_HP;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6FxZEMp2Eeunc_oc4k4f7Q" name="toString" specification="_6BrjQ8p2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6FxZEcp2Eeunc_oc4k4f7Q" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return &quot;Dropship&quot;;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_6Bq8MMp2Eeunc_oc4k4f7Q" name="Dropship" method="_6Fu80Mp2Eeunc_oc4k4f7Q">
+            <eAnnotations xmi:id="_6BrjQMp2Eeunc_oc4k4f7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_6BrjQcp2Eeunc_oc4k4f7Q" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_6BrjQsp2Eeunc_oc4k4f7Q" type="_6BpuEMp2Eeunc_oc4k4f7Q" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_6BrjQ8p2Eeunc_oc4k4f7Q" name="toString" method="_6FxZEMp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6BsKUMp2Eeunc_oc4k4f7Q" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6B1UQMp2Eeunc_oc4k4f7Q" name="Marine">
+          <generalization xmi:id="_NV1poMp5Eeunc_oc4k4f7Q" general="_NVDmgMp5Eeunc_oc4k4f7Q"/>
+          <interfaceRealization xmi:id="_6FZloMp2Eeunc_oc4k4f7Q" client="_6B1UQMp2Eeunc_oc4k4f7Q" supplier="_6CXfwMp2Eeunc_oc4k4f7Q" contract="_6CXfwMp2Eeunc_oc4k4f7Q"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6F2RkMp2Eeunc_oc4k4f7Q" name="Marine" specification="_6B2iYMp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6F2Rkcp2Eeunc_oc4k4f7Q" type="_6B1UQMp2Eeunc_oc4k4f7Q" direction="return">
+              <name xsi:nil="true"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>super(40);&#xD;
+		hitpoint = MAX_HP;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rZ7k0Mp4Eeunc_oc4k4f7Q" name="toString" specification="_rZzB8Mp4Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_rZ8L4Mp4Eeunc_oc4k4f7Q" direction="return">
+              <name xsi:nil="true"/>
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return &quot;Marine&quot;;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_6B2iYMp2Eeunc_oc4k4f7Q" name="Marine" method="_6F2RkMp2Eeunc_oc4k4f7Q">
+            <eAnnotations xmi:id="_6B3JcMp2Eeunc_oc4k4f7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_6B3Jccp2Eeunc_oc4k4f7Q" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_6B3Jcsp2Eeunc_oc4k4f7Q" type="_6B1UQMp2Eeunc_oc4k4f7Q" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_rZzB8Mp4Eeunc_oc4k4f7Q" name="toString" method="_rZ7k0Mp4Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_rZ6WsMp4Eeunc_oc4k4f7Q" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6CMgoMp2Eeunc_oc4k4f7Q" name="Medic">
+          <generalization xmi:id="_NV2QsMp5Eeunc_oc4k4f7Q" general="_NVDmgMp5Eeunc_oc4k4f7Q"/>
+          <interfaceRealization xmi:id="_sHNXAMp3Eeunc_oc4k4f7Q" client="_6CMgoMp2Eeunc_oc4k4f7Q" supplier="_6CXfwMp2Eeunc_oc4k4f7Q" contract="_6CXfwMp2Eeunc_oc4k4f7Q"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6F2Rksp2Eeunc_oc4k4f7Q" name="Medic" specification="_6CNuwMp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6F2Rk8p2Eeunc_oc4k4f7Q" type="_6CMgoMp2Eeunc_oc4k4f7Q" direction="return">
+              <name xsi:nil="true"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>super(1000);&#xD;
+		hitpoint = MAX_HP;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6F24oMp2Eeunc_oc4k4f7Q" name="repair" specification="_6FazwMp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6F24ocp2Eeunc_oc4k4f7Q" name="r" type="_6CXfwMp2Eeunc_oc4k4f7Q"/>
+            <language>java</language>
+            <body>if(r instanceof Unit) {&#xD;
+			Unit u = (Unit)r;&#xD;
+			while(u.hitpoint != u.MAX_HP) {&#xD;
+				u.hitpoint++;&#xD;
+			}&#xD;
+			System.out.println(u.toString() + &quot;수리 완료&quot;);&#xD;
+			}&#xD;
+			&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_6CNuwMp2Eeunc_oc4k4f7Q" name="Medic" method="_6F2Rksp2Eeunc_oc4k4f7Q">
+            <eAnnotations xmi:id="_6CNuwcp2Eeunc_oc4k4f7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_6CNuwsp2Eeunc_oc4k4f7Q" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_6COV0Mp2Eeunc_oc4k4f7Q" type="_6CMgoMp2Eeunc_oc4k4f7Q" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_6FazwMp2Eeunc_oc4k4f7Q" name="repair" visibility="package" method="_6F24oMp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6Fazwcp2Eeunc_oc4k4f7Q" name="r" type="_6CXfwMp2Eeunc_oc4k4f7Q"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_6CWRoMp2Eeunc_oc4k4f7Q" name="Repairable"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_6CXfwMp2Eeunc_oc4k4f7Q" name="Repairable2"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6CeNcMp2Eeunc_oc4k4f7Q" name="SCV">
+          <generalization xmi:id="_NV23wMp5Eeunc_oc4k4f7Q" general="_NVDmgMp5Eeunc_oc4k4f7Q"/>
+          <interfaceRealization xmi:id="_6FcB4Mp2Eeunc_oc4k4f7Q" client="_6CeNcMp2Eeunc_oc4k4f7Q" supplier="_6CWRoMp2Eeunc_oc4k4f7Q" contract="_6CWRoMp2Eeunc_oc4k4f7Q"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6F24osp2Eeunc_oc4k4f7Q" name="SCV" specification="_6CjtAMp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6F24o8p2Eeunc_oc4k4f7Q" type="_6CeNcMp2Eeunc_oc4k4f7Q" direction="return">
+              <name xsi:nil="true"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>super(60);&#xD;
+		hitpoint = MAX_HP;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6F24pMp2Eeunc_oc4k4f7Q" name="repair" specification="_6FcB4cp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6F24pcp2Eeunc_oc4k4f7Q" name="r" type="_6CWRoMp2Eeunc_oc4k4f7Q"/>
+            <language>java</language>
+            <body>if(r instanceof Unit) {&#xD;
+			Unit u = (Unit)r;&#xD;
+			while(u.hitpoint != u.MAX_HP) {&#xD;
+				u.hitpoint++;&#xD;
+			}&#xD;
+			System.out.println(u.toString() + &quot;수리 완료&quot;);&#xD;
+			}&#xD;
+			&#xD;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_6CjtAMp2Eeunc_oc4k4f7Q" name="SCV" method="_6F24osp2Eeunc_oc4k4f7Q">
+            <eAnnotations xmi:id="_6CjtAcp2Eeunc_oc4k4f7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_6CjtAsp2Eeunc_oc4k4f7Q" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_6CkUEMp2Eeunc_oc4k4f7Q" type="_6CeNcMp2Eeunc_oc4k4f7Q" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_6FcB4cp2Eeunc_oc4k4f7Q" name="repair" visibility="package" method="_6F24pMp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6Fco8Mp2Eeunc_oc4k4f7Q" name="r" type="_6CWRoMp2Eeunc_oc4k4f7Q"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6CmwUMp2Eeunc_oc4k4f7Q" name="StarcraftTest">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6F3fsMp2Eeunc_oc4k4f7Q" name="main" specification="_6Cn-cMp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6F3fscp2Eeunc_oc4k4f7Q" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6F3fssp2Eeunc_oc4k4f7Q" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>Tank t = new Tank();&#xD;
+		Dropship d = new Dropship();&#xD;
+		Marine m = new Marine();&#xD;
+		SCV s = new SCV();&#xD;
+		Medic me = new Medic();&#xD;
+		&#xD;
+		s.repair(t);&#xD;
+		s.repair(d);&#xD;
+		me.repair(m);&#xD;
+		&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_6Cn-cMp2Eeunc_oc4k4f7Q" name="main" isStatic="true" method="_6F3fsMp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6Cn-ccp2Eeunc_oc4k4f7Q" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6CpMkMp2Eeunc_oc4k4f7Q" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6CpzoMp2Eeunc_oc4k4f7Q" name="Tank">
+          <generalization xmi:id="_NV3e0Mp5Eeunc_oc4k4f7Q" general="_NVDmgMp5Eeunc_oc4k4f7Q"/>
+          <interfaceRealization xmi:id="_6FdQAcp2Eeunc_oc4k4f7Q" client="_6CpzoMp2Eeunc_oc4k4f7Q" supplier="_6CWRoMp2Eeunc_oc4k4f7Q" contract="_6CWRoMp2Eeunc_oc4k4f7Q"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6F4GwMp2Eeunc_oc4k4f7Q" name="Tank" specification="_6CrBwMp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6F4Gwcp2Eeunc_oc4k4f7Q" type="_6CpzoMp2Eeunc_oc4k4f7Q" direction="return">
+              <name xsi:nil="true"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>super(150);&#xD;
+		hitpoint = MAX_HP;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6F4Gwsp2Eeunc_oc4k4f7Q" name="toString" specification="_6CsP4Mp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6F4Gw8p2Eeunc_oc4k4f7Q" direction="return">
+              <name xsi:nil="true"/>
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return &quot;Tank&quot;;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_6CrBwMp2Eeunc_oc4k4f7Q" name="Tank" method="_6F4GwMp2Eeunc_oc4k4f7Q">
+            <eAnnotations xmi:id="_6CrBwcp2Eeunc_oc4k4f7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_6Cro0Mp2Eeunc_oc4k4f7Q" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_6Cro0cp2Eeunc_oc4k4f7Q" type="_6CpzoMp2Eeunc_oc4k4f7Q" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_6CsP4Mp2Eeunc_oc4k4f7Q" name="toString" method="_6F4Gwsp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6Cs28Mp2Eeunc_oc4k4f7Q" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6Cv6QMp2Eeunc_oc4k4f7Q" name="Unit">
+          <ownedAttribute xmi:id="_6FfsQMp2Eeunc_oc4k4f7Q" name="hitpoint" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_6FhhcMp2Eeunc_oc4k4f7Q" name="MAX_HP" visibility="package" isLeaf="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6F4t0Mp2Eeunc_oc4k4f7Q" name="Unit" specification="_6CxvcMp2Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_6F4t0cp2Eeunc_oc4k4f7Q" name="mAX_HP">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_6F4t0sp2Eeunc_oc4k4f7Q" type="_6Cv6QMp2Eeunc_oc4k4f7Q" direction="return"/>
+            <language>java</language>
+            <body>MAX_HP = mAX_HP;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_6CxvcMp2Eeunc_oc4k4f7Q" name="Unit" method="_6F4t0Mp2Eeunc_oc4k4f7Q">
+            <eAnnotations xmi:id="_6Cxvcsp2Eeunc_oc4k4f7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_6CyWgMp2Eeunc_oc4k4f7Q" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_6Cxvccp2Eeunc_oc4k4f7Q" name="mAX_HP">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_6CyWgcp2Eeunc_oc4k4f7Q" type="_6Cv6QMp2Eeunc_oc4k4f7Q" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_NVDmgMp5Eeunc_oc4k4f7Q" name="GroundUnit">
+          <generalization xmi:id="_NVFbsMp5Eeunc_oc4k4f7Q" general="_6Cv6QMp2Eeunc_oc4k4f7Q"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NV4s8Mp5Eeunc_oc4k4f7Q" name="GroundUnit" specification="_NVE0oMp5Eeunc_oc4k4f7Q">
+            <ownedParameter xmi:id="_NV4s8cp5Eeunc_oc4k4f7Q" name="mAX_HP">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_NV4s8sp5Eeunc_oc4k4f7Q" type="_NVDmgMp5Eeunc_oc4k4f7Q" direction="return"/>
+            <language>java</language>
+            <body>super(mAX_HP);//반드시 부모의 생성자를 생성해줘야한다.&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_NVE0oMp5Eeunc_oc4k4f7Q" name="GroundUnit" method="_NV4s8Mp5Eeunc_oc4k4f7Q">
+            <eAnnotations xmi:id="_NVE0osp5Eeunc_oc4k4f7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_NVE0o8p5Eeunc_oc4k4f7Q" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_NVE0ocp5Eeunc_oc4k4f7Q" name="mAX_HP">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_NVE0pMp5Eeunc_oc4k4f7Q" type="_NVDmgMp5Eeunc_oc4k4f7Q" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_6BWMEMp2Eeunc_oc4k4f7Q">
+      <eAnnotations xmi:id="_6BZ2cMp2Eeunc_oc4k4f7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6Bt_gMp2Eeunc_oc4k4f7Q" base_Element="_6BrjQ8p2Eeunc_oc4k4f7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_6BwbwMp2Eeunc_oc4k4f7Q" base_Element="_6BrjQ8p2Eeunc_oc4k4f7Q">
+    <annotations xmi:id="_6Bwbwcp2Eeunc_oc4k4f7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6CteAMp2Eeunc_oc4k4f7Q" base_Element="_6CsP4Mp2Eeunc_oc4k4f7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_6CuFEMp2Eeunc_oc4k4f7Q" base_Element="_6CsP4Mp2Eeunc_oc4k4f7Q">
+    <annotations xmi:id="_6CusIMp2Eeunc_oc4k4f7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6Fg6YMp2Eeunc_oc4k4f7Q" base_Element="_6FfsQMp2Eeunc_oc4k4f7Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6FiIgMp2Eeunc_oc4k4f7Q" base_Element="_6FhhcMp2Eeunc_oc4k4f7Q"/>
+  <UMLLabProfile:Annotations xmi:id="_rZ0QEMp4Eeunc_oc4k4f7Q" base_Element="_rZzB8Mp4Eeunc_oc4k4f7Q">
+    <annotations xmi:id="_rZ03IMp4Eeunc_oc4k4f7Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_rZ1eMMp4Eeunc_oc4k4f7Q" base_Element="_rZzB8Mp4Eeunc_oc4k4f7Q"/>
+</xmi:XMI>
