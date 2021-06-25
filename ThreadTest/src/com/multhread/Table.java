@@ -3,7 +3,7 @@ package com.multhread;
 import java.util.ArrayList;
 
 public class Table {
-	String[] disNames = {"donut", "donut", "burger"};
+	String[] dishNames = {"donut", "donut", "burger"};
 	
 	final int MAX_FOOD = 6;
 	
@@ -12,7 +12,7 @@ public class Table {
 	public synchronized void add(String dish) {
 		while(dishes.size() >= MAX_FOOD) {
 			String name = Thread.currentThread().getName();
-			System.out.println(name + " is watting.");
+			System.out.println(name + " is waiting.");
 			try {
 				wait();
 			} catch (InterruptedException e) {
@@ -35,7 +35,7 @@ public class Table {
 			String name = Thread.currentThread().getName();
 			
 			while(dishes.size() == 0) {
-				System.out.println(name + " is watting.");
+				System.out.println(name + " is waiting.");
 				try {
 					wait();
 					Thread.sleep(500);
@@ -54,7 +54,7 @@ public class Table {
 				}
 				
 				try {
-					System.out.println(name + " is watting.");
+					System.out.println(name + " is waiting.");
 				    wait();
 				} catch (InterruptedException e) {
 					e.printStackTrace();
@@ -74,6 +74,6 @@ public class Table {
 //		}
 //	}
 	public int disNum() {
-		return disNames.length;
+		return dishNames.length;
 		}
 }
