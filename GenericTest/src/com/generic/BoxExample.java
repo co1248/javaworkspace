@@ -10,7 +10,7 @@ public class BoxExample {
 		System.out.println(str);
 		
 		Box<Integer> box2 = new Box<Integer>();
-		box2.set(6);
+		box2.set(6); //¿ÀÅä¹Ú½Ì
 		int value = box2.get();
 		
 		System.out.println(value);
