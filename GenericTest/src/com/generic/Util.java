@@ -16,4 +16,10 @@ public class Util {
 		double v2 = t2.doubleValue();
 		return Double.compare(v1, v2);
 	}
+	public static <K, V> V getValue (Pair<K, V> p , K k) {
+		if(p.getKey() == k) {
+			return p.getValue();
+		} 
+		return null;
+	}
 }
