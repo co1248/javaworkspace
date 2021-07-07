@@ -19,7 +19,7 @@ public class TreeSetMapExample {
 //	System.out.println(set);
 //	}
 		
-		TreeMap<String, Integer> map = new TreeMap<> (new ValueComparator());
+		TreeMap<String, Integer> map = new TreeMap<String, Integer> (new ValueComparator());
 		
 		map.put("신용권", 85);
 		map.put("홍길동", 90);
@@ -50,15 +50,7 @@ public class TreeSetMapExample {
 
 		@Override
 		public int compare(Object o1, Object o2) {
-			// TODO Auto-generated method stub
-			if(o1 instanceof Map.Entry && o2 instanceof Map.Entry) {
-				Map.Entry e1 = (Map.Entry)o1;
-				Map.Entry e2 = (Map.Entry)o2;
-				int v1 = ((Integer)e1.getValue()).intValue();//키값으로 바꾸고 싶으면 getKey를 쓰면 된다.
-				int v2 = ((Integer)e2.getValue()).intValue();
-				return v2 - v1; //내림차순
-			}
-			return -1;
+			return ((String)o2).compareTo((String)o1); //오름차순
 		} 
 	}
 }
