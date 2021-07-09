@@ -282,17 +282,47 @@ public class StudentManage {
 				try {
 					Class.forName("oracle.jdbc.driver.OracleDriver");
 					conn = DriverManager.getConnection(url, id, pw);
-					sql = "delete from student where name = ?";
+					sql = "select * from student where name = ?";
 					pst = conn.prepareStatement(sql);
 					pst.setString(1, search);
 					rs = pst.executeQuery();
 					
+		            boolean isList = false;
+					
+					while(rs.next() ) {
+						no = rs.getInt(1);
+						name = rs.getString(2);
+						age = rs.getInt(3);
+						phone = rs.getString(4);
+						email = rs.getString(5);
+						
+						System.out.println("======" + search + " 정보조회=====");
+						System.out.print("학생번호 : " + no + "\t");
+						System.out.print("학생이름 : " + name + "\t");
+						System.out.print("학생나이: " + age + "\t");
+						System.out.print("학생전화번호 : " + phone + "\t");
+						System.out.print("학생이메일 : " + email + "\t");
+						System.out.println("===============================");
+						System.out.println();
+						
+						isList = true;
+					}
+					
+					if(isList == false) {
+						System.out.println("검색된 학생이 없습니다.");
+					}
+					
+					sql = "delete from student where no = ?";
+					pst= conn.prepareStatement(sql);
+					pst.setInt(1, no);
+					
 					int cnt = pst.executeUpdate();
 					if(cnt > 0) {
-						System.out.println("학생삭제 성공");
+						System.out.println("학생정보 삭제 성공");
 					} else {
-						System.out.println("학생삭제 실패");
+						System.out.println("학생정보 삭제 실패");
 					}
+					
 				} catch(SQLException e) {
 					e.printStackTrace();
 					System.out.println("DB연결 실패");
@@ -311,9 +341,14 @@ public class StudentManage {
 				System.out.println();
 				break;
 			case 6: 
-				
+				System.out.println("프로그램 종료");
+//				System.exit(0); //아예 프로그램 종료하는 코드
 				break;
 			} //swich end
+			
+			if(menu == 6) {
+				break;
+			}
 		} //while end
 		
 	}
